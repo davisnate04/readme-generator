@@ -1,4 +1,4 @@
-# Test
+# Test Name
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Description
@@ -23,7 +23,7 @@ Test Usage
 
 ## Contributing
 
-Test Constribution
+Test Contributions
 
 ## Tests
 

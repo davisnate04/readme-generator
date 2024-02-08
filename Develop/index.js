@@ -59,7 +59,7 @@ const questions = [
 
 // Generates a README file containing the data provided
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(`./output/${fileName}`, data);
+    return fs.writeFileSync(`../output/${fileName}`, data);
 }
 
 // Intitializes the programs
