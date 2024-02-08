@@ -1,6 +1,6 @@
 const licenses = ["Apache-2.0", "GPL-2.0", "GPL-3.0", "ISC", "MIT"];
 
-// TODO: Create a function that return a license badge based on which license is passed in
+// Generates the badge for the license
 // If there is no license, returns an empty string
 function renderLicenseBadge(license) {
     switch (license) {
@@ -19,7 +19,7 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
+// Generates the link for the license
 // If there is a no license, return an empty string
 function renderLicenseLink(license) {
     const temp = licenses.find((licenseFilter) => licenseFilter === license);
@@ -32,7 +32,7 @@ function renderLicenseLink(license) {
     
 }
 
-// TODO: Create a function that returns the license section of README
+// Generates the license section contents
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     const temp = licenses.find((licenseFind) => licenseFind === license);
@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
     }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generates the README content
 function generateMarkdown(data) {
     return `# ${data.name}
 ${renderLicenseBadge(data.license) + renderLicenseLink(data.license)}
